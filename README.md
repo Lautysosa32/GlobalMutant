@@ -45,8 +45,8 @@ Incluye:
 
 La aplicación puede desplegarse automáticamente en Render utilizando un Dockerfile y variables de entorno.
 
-🔗 **ACÁ VA TU LINK DE RENDER**
-`<URL_DE_TU_DEPLOY>`
+🔗 https://globalmutant.onrender.com
+
 
 ---
 
@@ -134,17 +134,6 @@ spring.datasource.password=1234
 
 ---
 
-## 🧪 Colección Postman
-
-Incluí una colección de Postman para facilitar pruebas:
-
-🔗 **ACÁ VA EL LINK A TU COLECCIÓN POSTMAN**
-`<URL_COLECCION_POSTMAN>`
-
-Cuando tengas el deploy andando, actualizá la variable `baseUrl`.
-
----
-
 ## 🐋 Docker y Render
 
 La aplicación se ejecuta con:
@@ -160,8 +149,7 @@ El archivo `render.yaml` fue actualizado con mi nombre de servicio:
 name: meli-api-lauti
 ```
 
-🔗 **ACÁ VA EL LINK A TU DASHBOARD DE RENDER**
-`<URL_RENDER_SERVICE>`
+🔗 https://dashboard.render.com/web/srv-d4jef8vdiees738mofi0
 
 ---
 
@@ -185,11 +173,10 @@ El mensaje es devuelto en formato JSON para facilitar debugging o consumo desde 
 (este ya sería tu repo personal)
 
 ```bash
-git clone <URL_DE_TU_REPOSITORIO>
+git clone https://github.com/Lautysosa32/GlobalMutant/edit/main/README.md
 ```
 
-🔗 **ACÁ VA LA URL DE TU REPO**
-`<URL_GITHUB_PERSONAL>`
+🔗 https://github.com/Lautysosa32/GlobalMutant
 
 ### 2. Compilar y ejecutar
 
@@ -199,3 +186,4 @@ git clone <URL_DE_TU_REPOSITORIO>
 
 La API estará disponible en:
 ➡️ [http://localhost:8080](http://localhost:8080)
+
